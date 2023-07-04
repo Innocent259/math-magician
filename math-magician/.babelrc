@@ -1,13 +1,7 @@
 {
-    "presets": ["@babel/preset-react"],
-    "plugins": [
-      ["babel-plugin-react-transform", {
-        "transforms": [{
-          "transform": "react-transform-hmr",
-          "imports": ["react"],
-          "locals": ["module"]
-        }]
-      }]
-    ]
-}
+    "presets": [
+        "@babel/preset-react"
+    ],
+    "plugins": ["@babel/plugin-syntax-jsx"]
+  }
   
