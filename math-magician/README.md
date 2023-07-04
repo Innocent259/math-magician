@@ -19,7 +19,7 @@
 
 # 📖 [To Do list] <a name="about-project"></a>
 
-**[Math Magician]** is a website ....
+**[Math Magician]** "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations and Read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,9 +56,10 @@ Installed node.js and any IDE like Visual Studio Code.
 ### Setup
 
 Clone this repository to your desired folder:
-git@github.com:Innocent259/To-Do-list.git
+https://github.com/Innocent259/Math-Magician.git
 
-Change directory To-Do-list in your terminal
+Change directory Math-Magician
+Change directory math-magician to access react application
 ### Install
 
 Install this project with:
@@ -68,7 +69,7 @@ Run npm install --save to install dependencies of this project.
 ### Usage
 
 To run the project, execute the following command:
-Run npm dev to view the project on local host(npm run dev) 
+Run npm start to view the project on local host(npm start) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,15 +80,13 @@ Run npm dev to view the project on local host(npm run dev)
 - GitHub: [@innocent259](https://github.com/Innocent259)
 - LinkedIn: [Ndahimana Innocent](https://www.linkedin.com/in/innocent-ndahimana-b4b870245/)
 
-👤 **Berhanu Baye**
-- GitHub: [@BranBayou](https://github.com/BranBayou)
-- LinkedIn: [bran-baye](https://www.linkedin.com/in/bran-baye/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Editing added Items]**
+- [ ] **[Project functionalities]**
+- [ ] **[Project functionalities]**
+- [ ] **[Deploy project]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
