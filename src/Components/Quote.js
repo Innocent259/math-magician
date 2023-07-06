@@ -19,9 +19,10 @@ export default function Quote() {
         }
 
         const data = await response.json();
-        setQuote(data[0]?.quote); // Update how the quote is extracted from the response
+        setQuote(data[0]?.quote);
         setLoading(false);
       } catch (error) {
+        console.error(error);
         setLoading(false);
         setError(true);
       }
