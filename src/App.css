@@ -1,7 +1,9 @@
 .App {
   text-align: center;
   margin: auto;
-  padding-top: 8rem;
+  padding: 8rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .container {
