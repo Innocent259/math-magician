@@ -1,9 +1,13 @@
 .App {
   text-align: center;
-  margin: auto;
-  padding: 8rem;
   display: flex;
   gap: 1rem;
+  height: 100vh;
+}
+
+.main {
+  width: 80%;
+  margin-inline: auto;
 }
 
 .container {
@@ -63,3 +67,27 @@ button {
 .others {
   display: flex;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-list {
+  display: flex;
+  gap: 0.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+.link {
+  color: rgb(0, 105, 0);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+} 
