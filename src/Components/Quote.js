@@ -37,8 +37,7 @@ export default function Quote() {
   } else if (error) {
     content = <p>Unexpected error happened while fetching data.</p>;
   } else if (quote) {
-    content = <div><p>{quote}</p></div>;
+    content = <div><p className="description">{quote}</p></div>;
   }
-
   return <div>{content}</div>;
 }

@@ -26,24 +26,27 @@ export default function Calculator() {
   };
 
   return (
-    <div className="container">
-      <div className="main-screen">
-        <span className="table">{calculatorData.next || calculatorData.total || '0'}</span>
-      </div>
-      <div className="middle">
-        <button type="button" onClick={() => handleButtonClick('AC')}>AC</button>
-        <button type="button" onClick={() => handleButtonClick('+/-')}>+/-</button>
-        <button type="button" onClick={() => handleButtonClick('%')}>%</button>
-        {createDigits()}
-        <button className="double" type="button" onClick={() => handleButtonClick('0')}>0</button>
-        <button type="button" onClick={() => handleButtonClick('.')}>.</button>
-      </div>
-      <div className="operators">
-        <button className="operator" type="button" onClick={() => handleButtonClick('÷')}>÷</button>
-        <button className="operator" type="button" onClick={() => handleButtonClick('x')}>x</button>
-        <button className="operator" type="button" onClick={() => handleButtonClick('-')}>-</button>
-        <button className="operator" type="button" onClick={() => handleButtonClick('+')}>+</button>
-        <button className="operator" type="button" onClick={() => handleButtonClick('=')}>=</button>
+    <div className="bg-container">
+      <h1 className="calculator-text">Let&apos;s do some math</h1>
+      <div className="container">
+        <div className="main-screen">
+          <span className="table">{calculatorData.next || calculatorData.total || '0'}</span>
+        </div>
+        <div className="middle">
+          <button type="button" onClick={() => handleButtonClick('AC')}>AC</button>
+          <button type="button" onClick={() => handleButtonClick('+/-')}>+/-</button>
+          <button type="button" onClick={() => handleButtonClick('%')}>%</button>
+          {createDigits()}
+          <button className="double" type="button" onClick={() => handleButtonClick('0')}>0</button>
+          <button type="button" onClick={() => handleButtonClick('.')}>.</button>
+        </div>
+        <div className="operators">
+          <button className="operator" type="button" onClick={() => handleButtonClick('÷')}>÷</button>
+          <button className="operator" type="button" onClick={() => handleButtonClick('x')}>x</button>
+          <button className="operator" type="button" onClick={() => handleButtonClick('-')}>-</button>
+          <button className="operator" type="button" onClick={() => handleButtonClick('+')}>+</button>
+          <button className="operator" type="button" onClick={() => handleButtonClick('=')}>=</button>
+        </div>
       </div>
     </div>
   );
