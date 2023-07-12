@@ -17,7 +17,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [To Do list] <a name="about-project"></a>
+# 📖 [Math Magician] <a name="about-project"></a>
 
 **[Math Magician]** "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations and Read a random math-related quote.
 
@@ -105,7 +105,7 @@ Give a star if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for allowing me to work on this project 
-It's a good experience, I can't express how I feel after learning and implementing what I learned in this To Do list project.
+It's a good experience, I can't express how I feel after learning and implementing what I learned in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
