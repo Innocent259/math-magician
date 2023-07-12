@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <h3>Welcome to our page</h3>
-      <p>
+      <p className="description">
         The Math Magicians website is a Single Page App
         (SPA) that caters to mathematics enthusiasts,
         offering a calculator for performing basic and
