@@ -8,6 +8,9 @@
 .main {
   width: 80%;
   margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 }
 
 .container {
@@ -90,4 +93,4 @@ li {
 
 .link:hover {
   text-decoration: underline;
-} 
+}
