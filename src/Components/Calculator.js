@@ -27,7 +27,7 @@ export default function Calculator() {
 
   return (
     <div className="bg-container">
-      <h1 className="calculator-text">Let s do math</h1>
+      <h1 className="calculator-text">Let&apos;s do some math</h1>
       <div className="container">
         <div className="main-screen">
           <span className="table">{calculatorData.next || calculatorData.total || '0'}</span>
